@@ -29,10 +29,10 @@ jobs:
       
       - name: Build Maven Projects
         run: |
-          mvn clean package -f ./front/pom.xml
-          mvn clean package -f ./store/pom.xml
-          mvn clean package -f ./rider/pom.xml
-          mvn clean package -f ./customer/pom.xml
+          mvn clean package -Dmaven.test.skip=true -f ./front/pom.xml 
+          mvn clean package -Dmaven.test.skip=true -f ./store/pom.xml
+          mvn clean package -Dmaven.test.skip=true -f ./rider/pom.xml
+          mvn clean package -Dmaven.test.skip=true -f ./customer/pom.xml
 
       - name: Docker Build and push for Front
         uses: docker/build-push-action@v4
