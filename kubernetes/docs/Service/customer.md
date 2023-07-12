@@ -5,12 +5,12 @@
 ### Cluster에 customer Service를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Service/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T020956Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=10e66a4e9966122549cd4a16fb02c1945930714455ff078010e8723a16ec286f
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Service/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T025834Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=d1b4872f6b287a273ef1cd4bd5abe01e239a2e0971a4f6e261ea9507908f0352
 ```
 - Yaml 파일에 명시된 스펙으로 customer Service를 생성합니다.  
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Service/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T020956Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=10e66a4e9966122549cd4a16fb02c1945930714455ff078010e8723a16ec286f
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Service/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T025834Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=d1b4872f6b287a273ef1cd4bd5abe01e239a2e0971a4f6e261ea9507908f0352
 ```
 - Create가 된 상태라면 customer Service의 수정이 이루어지고, Create가 된 상태가 아니라면 customer Service를 Create 해주는 명령어입니다.
 #

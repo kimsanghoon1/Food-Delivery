@@ -5,12 +5,12 @@
 ### Cluster에 rider Deployment를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/rider.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T020956Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=edc90f664c2092bd9b3f2037f747780bcce4464dd9d36ce435804ee413469dfe
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/rider.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T025834Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=7068adb740b28bac0821278da1ca1915ccba2e4542045ac2aa71ba7f5794aeb4
 ```
 - Yaml 파일에 명시된 스펙으로 rider Deployment를 생성합니다.
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/rider.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T020956Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=edc90f664c2092bd9b3f2037f747780bcce4464dd9d36ce435804ee413469dfe
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/rider.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T025834Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=7068adb740b28bac0821278da1ca1915ccba2e4542045ac2aa71ba7f5794aeb4
 ```
 - Create가 된 상태라면 rider Deployment의 수정이 이루어지고, Create가 된 상태가 아니라면 rider Deployment를 Create 해주는 명령어입니다.  
 #

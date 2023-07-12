@@ -5,12 +5,12 @@
 ### Cluster에 customer Deployment를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T020956Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=9fb09eab7b46f0108346a4db2a4706f0ecb1b3818910aa023e5075bfd020e19f
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T025834Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e32a706c45fe04ba96b9468ad15be4d1ee198a8a5c42580aed59326493b90c99
 ```
 - Yaml 파일에 명시된 스펙으로 customer Deployment를 생성합니다.
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T020956Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=9fb09eab7b46f0108346a4db2a4706f0ecb1b3818910aa023e5075bfd020e19f
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/food-delivery-sh2/sanghoon01%40uengine.org/Deployment/customer.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T025834Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e32a706c45fe04ba96b9468ad15be4d1ee198a8a5c42580aed59326493b90c99
 ```
 - Create가 된 상태라면 customer Deployment의 수정이 이루어지고, Create가 된 상태가 아니라면 customer Deployment를 Create 해주는 명령어입니다.  
 #
